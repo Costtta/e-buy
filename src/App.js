@@ -14,12 +14,6 @@ import Women from "./components/Women";
 function App() {
   useEffect(() => {
     document.title = "E-Buy"
-    const link = document.createElement('link')
-    link.rel = 'icon'
-    link.href = 'logo.avif'
-    link.type = 'image/x-icon'
-    const head = document.head;
-    head.appendChild(link)
   }, [])
   return (
     <>
