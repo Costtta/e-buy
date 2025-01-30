@@ -102,7 +102,7 @@ const Footer = () => {
                     customers to get those subscribe now</Typography>
                     <form action="get" >
                         <Box display={'block'} marginBlock={'1rem'}>
-                            <Input sx={{backgroundColor: 'white', borderRadius: '5px'}}/>
+                            <Input name="subscribe" sx={{backgroundColor: 'white', borderRadius: '5px'}}/>
                         </Box>
                         <Button variant="contained">Subscribe</Button> 
                     </form>

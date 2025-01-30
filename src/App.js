@@ -9,11 +9,16 @@ import Jewelery from "./components/Jewelery";
 import Men from "./components/Men";
 import Navbar from "./components/Navbar";
 import Women from "./components/Women";
+import { useDispatch } from "react-redux";
+import { fetchData } from "./redux/MenSlice";
 
 
 function App() {
+  const dispatch = useDispatch()
+
   useEffect(() => {
     document.title = "E-Buy"
+    dispatch(fetchData())
   }, [])
   return (
     <>
