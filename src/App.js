@@ -16,7 +16,7 @@ function App() {
     document.title = "E-Buy"
     const link = document.createElement('link')
     link.rel = 'icon'
-    link.href = '/public/logo.avif'
+    link.href = 'logo.avif'
     link.type = 'image/x-icon'
     const head = document.head;
     head.appendChild(link)
