@@ -1,3 +1,7 @@
+Website demo link: https://costtta.github.io/e-buy/
+
+React project using fake-store-api endpoint to disply most of the website data, manipulate it using redux-toolkit, style it using MUI library and make it responsive as well
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
